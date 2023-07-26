@@ -27,7 +27,7 @@ async function example(){
         //It is always a safe practice to quit the browser after execution
         setTimeout(function () {
          driver.quit();
-        }, 20000);
+        }, 200000);
 
  
 }
