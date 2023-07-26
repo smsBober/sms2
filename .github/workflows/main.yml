@@ -2,8 +2,7 @@ name: Scheduled Job
 
 on:
   schedule:
-    - cron: "0 * * * *"
-    - cron: "*/15 8-10 * * *"
+    - cron: "*/6 * * * *"
 
 jobs:
   scheduled-job:
