@@ -7,7 +7,7 @@ async function example(){
        
  
        //To wait for browser to build and launch properly
-       let driver = await new Builder().forBrowser("chrome").build();
+       let driver = await new Builder().forBrowser("firefox").build();
  
         //To fetch http://google.com from the browser with our code.
         await driver.get("https://mytoolstown.com/smsbomber");
